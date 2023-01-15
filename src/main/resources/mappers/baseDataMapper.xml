@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.treasury.mappers.baseData">
+
+	<select id="list" resultType="com.treasury.domain.BaseDataVO">
+	select
+    	base_data_id,
+     	base_data_code1,
+      	base_data_code2,
+      	base_data_code3,
+      	base_data_code4,
+      	base_data_code5,
+      	base_data_name,
+      	base_data_content1,
+      	base_data_content2,
+      	base_data_content3,
+      	base_data_content4,
+      	base_data_content5,
+      	base_data_content6,
+      	base_data_content7,
+      	base_data_content8,
+      	base_data_content9
+	from base_data
+	</select>
+
+</mapper>
